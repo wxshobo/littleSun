@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>deleteproduct</class>
+ <widget class="QWidget" name="deleteproduct">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>371</width>
+    <height>221</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>deleteproduct</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">color: rgb(0, 0, 0);
+font: 16pt &quot;微软雅黑&quot;;</string>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>534</width>
+     <height>324</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#frame
+{border-image: url(:/productManage/image/productManage/ab.png);}</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cancelBtn">
+   <property name="geometry">
+    <rect>
+     <x>218</x>
+     <y>130</y>
+     <width>116</width>
+     <height>39</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{border-image: url(:/userManage/image/userManage/btn_cancel_normal.png);}
+QPushButton:hover
+{border-image: url(:/userManage/image/userManage/btn_cancel_press.png);}
+QPushButton:pressed
+{border-image: url(:/userManage/image/userManage/btn_cancel_press.png);}
+
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="comfirmBtn">
+   <property name="geometry">
+    <rect>
+     <x>36</x>
+     <y>130</y>
+     <width>116</width>
+     <height>39</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{border-image: url(:/userManage/image/userManage/btn_delete_normal_green.png);}
+QPushButton:hover
+{border-image: url(:/userManage/image/userManage/btn_delete_press_green.png);}
+QPushButton:pressed
+{border-image: url(:/userManage/image/userManage/btn_delete_press_green.png);}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>62</y>
+     <width>101</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;微软雅黑&quot;;
+color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>确认删除？</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <tabstops>
+  <tabstop>comfirmBtn</tabstop>
+  <tabstop>cancelBtn</tabstop>
+ </tabstops>
+ <resources>
+  <include location="littlesun.qrc"/>
+ </resources>
+ <connections/>
+</ui>

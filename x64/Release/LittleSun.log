@@ -1,0 +1,20 @@
+﻿生成启动时间为 2017/10/21 21:40:53。
+     1>项目“E:\project\LittleSun\LittleSun\LittleSun.vcxproj”在节点 2 上(Build 个目标)。
+     1>CustomBuild:
+         Moc'ing homepage.h...
+       ClCompile:
+         W:\vs\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /IW:\Qt\5.5\msvc2013_64\include /I.\GeneratedFiles\Release /IW:\Qt\5.5\msvc2013_64\include\QtCore /IW:\Qt\5.5\msvc2013_64\include\QtGui /IW:\Qt\5.5\msvc2013_64\include\QtSql /IW:\Qt\5.5\msvc2013_64\include\QtWidgets /IW:\Qt\5.5\msvc2013_64\include\ActiveQt /IW:\Qt\5.5\msvc2013_64\include\QtXml /nologo /W1 /WX- /O2 /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_SQL_LIB /D QT_WIDGETS_LIB /D QT_XML_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt GeneratedFiles\Release\moc_homepage.cpp GeneratedFiles\Release\moc_littlesun.cpp homepage.cpp littlesun.cpp main.cpp
+         moc_homepage.cpp
+         moc_littlesun.cpp
+         homepage.cpp
+         littlesun.cpp
+     1>littlesun.cpp(115): error C2248: “HomePage::exitapp”: 无法访问 private 成员(在“HomePage”类中声明)
+                 e:\project\littlesun\littlesun\homepage.h(54) : 参见“HomePage::exitapp”的声明
+                 e:\project\littlesun\littlesun\homepage.h(23) : 参见“HomePage”的声明
+         main.cpp
+         正在生成代码...
+     1>已完成生成项目“E:\project\LittleSun\LittleSun\LittleSun.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:17.21

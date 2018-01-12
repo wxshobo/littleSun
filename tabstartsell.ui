@@ -1,0 +1,844 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TabStartSell</class>
+ <widget class="QWidget" name="TabStartSell">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>699</height>
+   </rect>
+  </property>
+  <property name="focusPolicy">
+   <enum>Qt::WheelFocus</enum>
+  </property>
+  <property name="contextMenuPolicy">
+   <enum>Qt::DefaultContextMenu</enum>
+  </property>
+  <property name="acceptDrops">
+   <bool>false</bool>
+  </property>
+  <property name="windowTitle">
+   <string>TabStartSell</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <widget class="QLabel" name="stalengthunitLabel">
+   <property name="geometry">
+    <rect>
+     <x>476</x>
+     <y>250</y>
+     <width>22</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(33, 34, 34);</string>
+   </property>
+   <property name="text">
+    <string>m</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="stalengthLabel">
+   <property name="geometry">
+    <rect>
+     <x>88</x>
+     <y>250</y>
+     <width>102</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(33, 34, 34);</string>
+   </property>
+   <property name="text">
+    <string>长      度：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="stamodulusLabel">
+   <property name="geometry">
+    <rect>
+     <x>376</x>
+     <y>426</y>
+     <width>102</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(33, 34, 34);</string>
+   </property>
+   <property name="text">
+    <string>报价系数：</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="stamodulusEdit">
+   <property name="geometry">
+    <rect>
+     <x>485</x>
+     <y>420</y>
+     <width>150</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font:13pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(66, 66, 66);
+border-image: url(:/start/image/startquotation/input_box_d.png);</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="stasingleunitLabel">
+   <property name="geometry">
+    <rect>
+     <x>476</x>
+     <y>310</y>
+     <width>22</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(33, 34, 34);</string>
+   </property>
+   <property name="text">
+    <string>元</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="stasingleEdit">
+   <property name="geometry">
+    <rect>
+     <x>197</x>
+     <y>300</y>
+     <width>272</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit{
+        font: 13pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(66, 66, 66);
+        border-image: url(:/start/image/startquotation/input_boxe.png);
+}
+</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="stacostunitLabel">
+   <property name="geometry">
+    <rect>
+     <x>334</x>
+     <y>430</y>
+     <width>22</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(33, 34, 34);</string>
+   </property>
+   <property name="text">
+    <string>元</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="staflatpriceunitLabel">
+   <property name="geometry">
+    <rect>
+     <x>924</x>
+     <y>370</y>
+     <width>22</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(33, 34, 34);</string>
+   </property>
+   <property name="text">
+    <string>元</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="staflatpriceEdit">
+   <property name="geometry">
+    <rect>
+     <x>644</x>
+     <y>360</y>
+     <width>272</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit{
+font: 13pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(66, 66, 66);
+border-image: url(:/start/image/startquotation/input_boxe.png);
+}</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="stabasisunitLabel">
+   <property name="geometry">
+    <rect>
+     <x>924</x>
+     <y>310</y>
+     <width>22</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(33, 34, 34);</string>
+   </property>
+   <property name="text">
+    <string>元</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="stafinishbutton">
+   <property name="geometry">
+    <rect>
+     <x>304</x>
+     <y>515</y>
+     <width>114</width>
+     <height>42</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	 border-image: url(:/start/image/startquotation/brn_cls.png);
+      font: 16px &quot;Microsoft YaHei UI&quot;;
+      color:rgb(255,255,255);
+}
+QPushButton::hover {
+   border-image: url(:/start/image/startquotation/btn_clsed.png);
+}
+	
+</string>
+   </property>
+   <property name="text">
+    <string>完成</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="stalengthEdit">
+   <property name="geometry">
+    <rect>
+     <x>197</x>
+     <y>240</y>
+     <width>272</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 13pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(66, 66, 66);
+border-image: url(:/start/image/startquotation/input_box_b.png);</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="staterminalunitLabel">
+   <property name="geometry">
+    <rect>
+     <x>924</x>
+     <y>430</y>
+     <width>22</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(33, 34, 34);</string>
+   </property>
+   <property name="text">
+    <string>元</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="stawidthunitLabel">
+   <property name="geometry">
+    <rect>
+     <x>924</x>
+     <y>250</y>
+     <width>22</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(33, 34, 34);</string>
+   </property>
+   <property name="text">
+    <string>m</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="statelephoneLabel">
+   <property name="geometry">
+    <rect>
+     <x>535</x>
+     <y>70</y>
+     <width>102</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(33, 34, 34);</string>
+   </property>
+   <property name="text">
+    <string>联系电话：</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="stamanEdit">
+   <property name="geometry">
+    <rect>
+     <x>197</x>
+     <y>120</y>
+     <width>271</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 13pt &quot;Microsoft YaHei UI&quot;;
+border-image: url(:/start/image/startquotation/input_box_b.png);
+color: rgb(66, 66, 66);</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="stamanLabel">
+   <property name="geometry">
+    <rect>
+     <x>88</x>
+     <y>130</y>
+     <width>102</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(33, 34, 34);</string>
+   </property>
+   <property name="text">
+    <string>联 系 人 ：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="stabuyLabel">
+   <property name="geometry">
+    <rect>
+     <x>88</x>
+     <y>70</y>
+     <width>102</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(33, 34, 34);
+</string>
+   </property>
+   <property name="text">
+    <string>购买单位：</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="stasortComBox">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>197</x>
+     <y>180</y>
+     <width>272</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>159</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::ClickFocus</enum>
+   </property>
+   <property name="contextMenuPolicy">
+    <enum>Qt::DefaultContextMenu</enum>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QComboBox{
+font: 13pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(66, 66, 66);
+	border-image: url(:/dataoutput/image/dataoutput/下拉框_normal.png);
+}
+
+QComboBox:pressed{
+border-image: url(:/dataoutput/image/dataoutput/下拉框_pressed.png);
+}
+
+QComboBox::drop-down {
+subcontrol-origin: padding;
+subcontrol-position: top right;
+width: 30px;
+border-left-width: 0px;
+border-left-color: gray;
+border-left-style: solid;
+border-top-right-radius: 3px;
+border-bottom-right-radius: 3px;
+}
+</string>
+   </property>
+   <property name="editable">
+    <bool>false</bool>
+   </property>
+   <property name="currentText">
+    <string/>
+   </property>
+   <property name="sizeAdjustPolicy">
+    <enum>QComboBox::AdjustToContentsOnFirstShow</enum>
+   </property>
+   <property name="duplicatesEnabled">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="stabasisEdit">
+   <property name="geometry">
+    <rect>
+     <x>644</x>
+     <y>300</y>
+     <width>272</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit{
+font: 13pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(66, 66, 66);
+border-image: url(:/start/image/startquotation/input_boxe.png);
+}
+</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="stacostEdit">
+   <property name="geometry">
+    <rect>
+     <x>176</x>
+     <y>420</y>
+     <width>150</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit{
+    font: 13pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(66, 66, 66);
+	border-image: url(:/start/image/startquotation/input_boxd.png);
+}
+</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="stabasisLabel">
+   <property name="geometry">
+    <rect>
+     <x>535</x>
+     <y>310</y>
+     <width>102</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 22px &quot;Microsoft YaHei UI&quot;;
+color: rgb(33, 34, 34);</string>
+   </property>
+   <property name="text">
+    <string>基础价格：</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="stabuyEdit">
+   <property name="geometry">
+    <rect>
+     <x>197</x>
+     <y>60</y>
+     <width>271</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 13pt &quot;Microsoft YaHei UI&quot;;
+
+border-image: url(:/start/image/startquotation/input_box_b.png);
+color: rgb(66, 66, 66);</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="staclearbutton">
+   <property name="geometry">
+    <rect>
+     <x>606</x>
+     <y>515</y>
+     <width>114</width>
+     <height>42</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	 border-image: url(:/start/image/startquotation/brn_cls.png);
+      font: 16px &quot;Microsoft YaHei UI&quot;;
+      color:rgb(255,255,255);
+}
+QPushButton::hover {
+   border-image: url(:/start/image/startquotation/btn_clsed.png);
+}</string>
+   </property>
+   <property name="text">
+    <string>清屏</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="stanameComBox">
+   <property name="geometry">
+    <rect>
+     <x>644</x>
+     <y>180</y>
+     <width>272</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QComboBox{
+font: 13pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(66, 66, 66);
+	border-image: url(:/dataoutput/image/dataoutput/下拉框_normal.png);
+}
+
+QComboBox:pressed{
+border-image: url(:/dataoutput/image/dataoutput/下拉框_pressed.png);
+}
+
+QComboBox::drop-down {
+subcontrol-origin: padding;
+subcontrol-position: top right;
+width: 30px;
+border-left-width: 0px;
+border-left-color: gray;
+border-left-style: solid;
+border-top-right-radius: 3px;
+border-bottom-right-radius: 3px;
+}
+</string>
+   </property>
+   <property name="editable">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="stasortLabel">
+   <property name="geometry">
+    <rect>
+     <x>88</x>
+     <y>190</y>
+     <width>102</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(33, 34, 34);</string>
+   </property>
+   <property name="text">
+    <string>产品类别：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="staflatsingleunitLabel">
+   <property name="geometry">
+    <rect>
+     <x>476</x>
+     <y>370</y>
+     <width>22</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(33, 34, 34);</string>
+   </property>
+   <property name="text">
+    <string>元</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="staterminalLabel">
+   <property name="geometry">
+    <rect>
+     <x>657</x>
+     <y>426</y>
+     <width>102</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 22px &quot;Microsoft YaHei UI&quot;;
+color: rgb(33, 34, 34);</string>
+   </property>
+   <property name="text">
+    <string>终端价格：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="stasingleLabel">
+   <property name="geometry">
+    <rect>
+     <x>88</x>
+     <y>310</y>
+     <width>102</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(33, 34, 34);</string>
+   </property>
+   <property name="text">
+    <string>单      价：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="staflatsingleLabel">
+   <property name="geometry">
+    <rect>
+     <x>186</x>
+     <y>364</y>
+     <width>102</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(33, 34, 34);</string>
+   </property>
+   <property name="text">
+    <string>平接单价：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="stacostLabel">
+   <property name="geometry">
+    <rect>
+     <x>88</x>
+     <y>426</y>
+     <width>80</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(33, 34, 34);</string>
+   </property>
+   <property name="text">
+    <string>成本价：</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="staflatCheBox">
+   <property name="geometry">
+    <rect>
+     <x>88</x>
+     <y>364</y>
+     <width>68</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(33, 34, 34);</string>
+   </property>
+   <property name="text">
+    <string>平接</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="staterminalEdit">
+   <property name="geometry">
+    <rect>
+     <x>766</x>
+     <y>420</y>
+     <width>150</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 13pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(66, 66, 66);
+border-image: url(:/start/image/startquotation/input_box_d.png);</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="staphoneEdit">
+   <property name="geometry">
+    <rect>
+     <x>644</x>
+     <y>120</y>
+     <width>272</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 13pt &quot;Microsoft YaHei UI&quot;;
+
+border-image: url(:/start/image/startquotation/input_box_b.png);
+color: rgb(66, 66, 66);</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="stawidthLabel">
+   <property name="geometry">
+    <rect>
+     <x>535</x>
+     <y>250</y>
+     <width>102</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(33, 34, 34);</string>
+   </property>
+   <property name="text">
+    <string>宽      度：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="staflatpriceLabel">
+   <property name="geometry">
+    <rect>
+     <x>535</x>
+     <y>364</y>
+     <width>102</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 22px &quot;Microsoft YaHei UI&quot;;
+color: rgb(33, 34, 34);</string>
+   </property>
+   <property name="text">
+    <string>平接价格：</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="statelephoneEdit">
+   <property name="geometry">
+    <rect>
+     <x>644</x>
+     <y>60</y>
+     <width>272</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 13pt &quot;Microsoft YaHei UI&quot;;
+
+border-image: url(:/start/image/startquotation/input_box_b.png);
+color: rgb(66, 66, 66);</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="stanameLabel">
+   <property name="geometry">
+    <rect>
+     <x>535</x>
+     <y>190</y>
+     <width>102</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(33, 34, 34);</string>
+   </property>
+   <property name="text">
+    <string>产品名称：</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="staflatsingleEdit">
+   <property name="geometry">
+    <rect>
+     <x>294</x>
+     <y>360</y>
+     <width>174</width>
+     <height>44</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit{
+    font: 13pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(66, 66, 66);
+border-image: url(:/start/image/startquotation/input_box_d.png);
+}
+QLineEdit::disabled{
+border-image: url(:/start/image/startquotation/input_boxd.png);
+}
+</string>
+   </property>
+   <property name="readOnly">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="staphoneLabel">
+   <property name="geometry">
+    <rect>
+     <x>535</x>
+     <y>130</y>
+     <width>102</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(33, 34, 34);</string>
+   </property>
+   <property name="text">
+    <string>手 机 号：</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="stawidthEdit">
+   <property name="geometry">
+    <rect>
+     <x>644</x>
+     <y>240</y>
+     <width>272</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 13pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(66, 66, 66);
+border-image: url(:/start/image/startquotation/input_box_b.png);</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>407</x>
+     <y>605</y>
+     <width>211</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>西红柿科技（武汉）有限公司</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <tabstops>
+  <tabstop>stabuyEdit</tabstop>
+  <tabstop>statelephoneEdit</tabstop>
+  <tabstop>stamanEdit</tabstop>
+  <tabstop>staphoneEdit</tabstop>
+  <tabstop>stanameComBox</tabstop>
+  <tabstop>stalengthEdit</tabstop>
+  <tabstop>stawidthEdit</tabstop>
+  <tabstop>stasingleEdit</tabstop>
+  <tabstop>stabasisEdit</tabstop>
+  <tabstop>staflatCheBox</tabstop>
+  <tabstop>staflatsingleEdit</tabstop>
+  <tabstop>staflatpriceEdit</tabstop>
+  <tabstop>stacostEdit</tabstop>
+  <tabstop>stamodulusEdit</tabstop>
+  <tabstop>staterminalEdit</tabstop>
+  <tabstop>stafinishbutton</tabstop>
+  <tabstop>staclearbutton</tabstop>
+ </tabstops>
+ <resources>
+  <include location="littlesun.qrc"/>
+ </resources>
+ <connections/>
+</ui>

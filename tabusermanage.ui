@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TabUserManage</class>
+ <widget class="QWidget" name="TabUserManage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>699</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>TabUserManage</string>
+  </property>
+  <widget class="QTableWidget" name="usertableWidget">
+   <property name="geometry">
+    <rect>
+     <x>56</x>
+     <y>60</y>
+     <width>904</width>
+     <height>418</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Microsoft YaHei UI&quot;;
+color:#212222;
+gridline-color:#212222;
+
+</string>
+   </property>
+   <row>
+    <property name="text">
+     <string/>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string/>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string/>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string/>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string/>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string/>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string/>
+    </property>
+   </row>
+   <column>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="font">
+     <font>
+      <underline>false</underline>
+     </font>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>用户名称</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>用户类别</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>密码</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="userdeleteBtn">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>515</y>
+     <width>114</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		border-image: url(:/userManage/image/userManage/btn_delete_normal_blue.png);
+}
+
+QPushButton:hover{
+	border-image: url(:/userManage/image/userManage/btn_delete_press_blue.png);
+}
+
+
+QPushButton:disabled{
+	border-image: url(:/userManage/image/userManage/btn_delete_down.png);
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="userpreviousBtn">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>515</y>
+     <width>114</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	border-image: url(:/userManage/image/userManage/btn_prpage_normal.png);
+}
+
+QPushButton:hover{
+	border-image: url(:/userManage/image/userManage/btn_prpage_press.png);
+}
+
+
+QPushButton:disabled{
+	border-image: url(:/userManage/image/userManage/btn_prpage_down.png);
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="userlastBtn">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>515</y>
+     <width>114</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		border-image: url(:/userManage/image/userManage/btn_lastpage.normal.png);
+}
+
+QPushButton:hover{
+	border-image: url(:/userManage/image/userManage/btn_lastpage_press.png);
+}
+
+
+QPushButton:disabled{
+	border-image: url(:/userManage/image/userManage/btn_lastpage_down.png);
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="userreviseBtn">
+   <property name="geometry">
+    <rect>
+     <x>840</x>
+     <y>515</y>
+     <width>114</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		border-image: url(:/userManage/image/userManage/btn_alter_normal.png);
+}
+
+QPushButton:hover{
+	border-image: url(:/userManage/image/userManage/btn_alter_press.png);
+}
+
+
+QPushButton:disabled{
+	border-image: url(:/userManage/image/userManage/btn_alter_down.png);
+}
+	</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="useraddBtn">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>515</y>
+     <width>114</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		border-image: url(:/userManage/image/userManage/btn_add_normal.png);
+}
+
+QPushButton:hover{
+	border-image: url(:/userManage/image/userManage/btn_add_press.png);
+}
+
+
+QPushButton:disabled{
+	border-image: url(:/userManage/image/userManage/btn_add_down.png);
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="usernextBtn">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>515</y>
+     <width>114</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	border-image: url(:/userManage/image/userManage/btn_nextpage_normal.png);
+}
+
+QPushButton:hover{
+	border-image: url(:/userManage/image/userManage/btn_nextpage_press.png);
+}
+
+
+QPushButton:disabled{
+	border-image: url(:/userManage/image/userManage/btn_nextpage_down.png);
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="userfirstBtn">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>515</y>
+     <width>114</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	border-image: url(:/userManage/image/userManage/btn_firstpage_normal.png);
+}
+
+QPushButton:hover{
+    border-image: url(:/userManage/image/userManage/btn_firstpage_press.png);
+}
+
+
+QPushButton:disabled{
+   border-image: url(:/userManage/image/userManage/btn_firstpage_down.png);
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>407</x>
+     <y>605</y>
+     <width>210</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>西红柿科技（武汉）有限公司</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <tabstops>
+  <tabstop>userfirstBtn</tabstop>
+  <tabstop>userpreviousBtn</tabstop>
+  <tabstop>usernextBtn</tabstop>
+  <tabstop>userlastBtn</tabstop>
+  <tabstop>useraddBtn</tabstop>
+  <tabstop>userdeleteBtn</tabstop>
+  <tabstop>userreviseBtn</tabstop>
+  <tabstop>usertableWidget</tabstop>
+ </tabstops>
+ <resources>
+  <include location="littlesun.qrc"/>
+ </resources>
+ <connections/>
+</ui>

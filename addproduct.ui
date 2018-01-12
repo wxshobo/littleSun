@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>addProduct</class>
+ <widget class="QWidget" name="addProduct">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>522</width>
+    <height>318</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>addproduct</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">color: rgb(42, 42, 42);
+font: 12pt &quot;微软雅黑&quot;;</string>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>534</width>
+     <height>324</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#frame
+{border-image: url(:/productManage/image/productManage/ab.png);}
+</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QComboBox" name="proTypeBox">
+    <property name="geometry">
+     <rect>
+      <x>194</x>
+      <y>120</y>
+      <width>218</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QComboBox{
+     font: 12pt &quot;Microsoft YaHei UI&quot;;
+
+color: rgb(66, 66, 66);
+	border-image: url(:/productManage/image/productManage/下拉框_normal.png);
+}
+
+QComboBox:pressed{
+border-image: url(:/productManage/image/productManage/下拉框_pressed.png);
+}
+
+QComboBox::drop-down {
+subcontrol-origin: padding;
+subcontrol-position: top right;
+width: 30px;
+border-left-width: 0px;
+border-left-color: gray;
+border-left-style: solid;
+border-top-right-radius: 3px;
+border-bottom-right-radius: 3px;
+}</string>
+    </property>
+    <property name="editable">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="proPriceLabel">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>190</y>
+      <width>91</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>单价(元) ：</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="proFinishBtn">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>250</y>
+      <width>116</width>
+      <height>39</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton
+{border-image: url(:/productManage/image/productManage/btn_finish_normal.png);}
+QPushButton:hover
+{border-image: url(:/productManage/image/productManage/btn_finish_press.png);}
+QPushButton:pressed
+{border-image: url(:/productManage/image/productManage/btn_finish_normal.png);}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="proTypeLabel">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>130</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>产品类别：</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="proPriceLineEdit">
+    <property name="geometry">
+     <rect>
+      <x>194</x>
+      <y>180</y>
+      <width>218</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/userManage/image/userManage/文本框.png);
+font: 12pt &quot;微软雅黑&quot;;
+color: rgb(66, 66, 66);</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="proNameLineEdit">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>60</y>
+      <width>218</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/userManage/image/userManage/文本框.png);
+font: 12pt &quot;微软雅黑&quot;;
+color: rgb(66, 66, 66);</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="proNameLabel">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>70</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>产品名称：</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="proCancelBtn">
+    <property name="geometry">
+     <rect>
+      <x>296</x>
+      <y>250</y>
+      <width>116</width>
+      <height>39</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton
+{border-image: url(:/productManage/image/productManage/btn_cancel_normal.png);}
+QPushButton:hover
+{border-image: url(:/productManage/image/productManage/btn_cancel_press.png);}
+QPushButton:pressed
+{border-image: url(:/productManage/image/productManage/btn_cancel_normal.png);}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <tabstops>
+  <tabstop>proNameLineEdit</tabstop>
+  <tabstop>proTypeBox</tabstop>
+  <tabstop>proPriceLineEdit</tabstop>
+  <tabstop>proFinishBtn</tabstop>
+  <tabstop>proCancelBtn</tabstop>
+ </tabstops>
+ <resources>
+  <include location="littlesun.qrc"/>
+ </resources>
+ <connections/>
+</ui>

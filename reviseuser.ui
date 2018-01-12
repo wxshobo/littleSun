@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>reviseuser</class>
+ <widget class="QWidget" name="reviseuser">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>522</width>
+    <height>312</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>reviseuser</string>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>522</width>
+     <height>312</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#frame{
+border-image: url(:/userManage/image/userManage/ab.png);
+}</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QPushButton" name="confirm">
+    <property name="geometry">
+     <rect>
+      <x>102</x>
+      <y>234</y>
+      <width>116</width>
+      <height>39</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border-image: url(:/userManage/image/userManage/_alter_normal.png);
+}
+
+
+QPushButton:hover{
+border-image: url(:/userManage/image/userManage/_alter_pressed.png);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>102</x>
+      <y>180</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;微软雅黑&quot;;
+color: rgb(42, 42, 42);</string>
+    </property>
+    <property name="text">
+     <string>用户类型：</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>196</x>
+      <y>180</y>
+      <width>218</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QComboBox{
+     font: 12pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(66, 66, 66);
+	border-image: url(:/userManage/W:/107/image/userManage/弹出框切图_新增与修改/下拉框_normal.png);
+}
+
+QComboBox:pressed{
+border-image: url(:/userManage/W:/107/image/userManage/弹出框切图_新增与修改/下拉框_pressed.png);
+}
+
+QComboBox::drop-down {
+subcontrol-origin: padding;
+subcontrol-position: top right;
+width: 30px;
+border-left-width: 0px;
+border-left-color: gray;
+border-left-style: solid;
+border-top-right-radius: 3px;
+border-bottom-right-radius: 3px;
+}
+</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="concle">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>234</y>
+      <width>116</width>
+      <height>39</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border-image: url(:/userManage/image/userManage/btn_cancel_normal.png);
+}
+QPushButton:hover{
+border-image: url(:/userManage/image/userManage/btn_cancel_press.png);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>102</x>
+      <y>72</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;微软雅黑&quot;;
+color: rgb(42, 42, 42);</string>
+    </property>
+    <property name="text">
+     <string>用户名称：</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="usernameEdit">
+    <property name="geometry">
+     <rect>
+      <x>196</x>
+      <y>72</y>
+      <width>218</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/userManage/image/userManage/文本框.png);
+font: 12pt &quot;微软雅黑&quot;;
+color: rgb(66, 66, 66);</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="userpasswordEdit">
+    <property name="geometry">
+     <rect>
+      <x>196</x>
+      <y>126</y>
+      <width>218</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;微软雅黑&quot;;
+color: rgb(66, 66, 66);
+border-image: url(:/userManage/image/userManage/文本框.png);</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>102</x>
+      <y>126</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;微软雅黑&quot;;
+color: rgb(42, 42, 42);</string>
+    </property>
+    <property name="text">
+     <string>密      码： </string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <tabstops>
+  <tabstop>usernameEdit</tabstop>
+  <tabstop>userpasswordEdit</tabstop>
+  <tabstop>comboBox</tabstop>
+  <tabstop>confirm</tabstop>
+  <tabstop>concle</tabstop>
+ </tabstops>
+ <resources>
+  <include location="littlesun.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,435 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{f55c4c32-5009-49ad-b94e-fe07eb7e7ea7}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{7746c245-04dc-4b7f-b4bb-f0f68efd702f}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Form Files\userManage">
+      <UniqueIdentifier>{fbcf5e2e-40c5-46be-9f29-8fb1032fbb1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\productManage">
+      <UniqueIdentifier>{e7f914d9-8176-45e4-bb98-87f9d76a339b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\startSell">
+      <UniqueIdentifier>{0baf775d-213a-4cdb-a7a0-8536e32c87c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\startSell">
+      <UniqueIdentifier>{5b19b254-05bf-4265-ab4c-c023b76cb12c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\productManage">
+      <UniqueIdentifier>{69da4ae2-7dd7-40d6-a8e5-edf0d0b58953}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\userManage">
+      <UniqueIdentifier>{5d85b83a-e670-4234-bfad-b15183749a55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\tools">
+      <UniqueIdentifier>{0c1a5bd2-94b4-4f45-8a68-18e4f6b37457}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\startSell">
+      <UniqueIdentifier>{049f21b1-bf86-4d22-97f4-90c4038ea8d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\productManage">
+      <UniqueIdentifier>{c9c3b800-6b3c-4279-a799-acf593dff62d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\userManage">
+      <UniqueIdentifier>{c66bdf08-f35b-4677-a82c-74e3d1349126}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\tools">
+      <UniqueIdentifier>{0fb6be2b-7da8-446a-a196-24ad5374dd89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\dataOutput">
+      <UniqueIdentifier>{91557b91-ce2f-4079-ad05-bbe2261e8410}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\dataOutput">
+      <UniqueIdentifier>{9bff2539-c015-4f42-a0d7-e9b58ae3dcc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\dataOutput">
+      <UniqueIdentifier>{4f0e6415-56ff-4f1e-b3b5-e03de131a985}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\statisticReport">
+      <UniqueIdentifier>{f9fba8f0-fb24-4d1a-9a6c-237188dd2dd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\statisticReport">
+      <UniqueIdentifier>{a01a35cf-c9ca-4039-893e-61de710b1e1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\statisticReport">
+      <UniqueIdentifier>{2cbdea5e-08ce-4441-823c-325f984eb8b7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="littlesun.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_littlesun.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_littlesun.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_littlesun.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="homepage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_homepage.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_homepage.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_tabstartsell.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_tabstartsell.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_tabproductmanage.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_tabproductmanage.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_addproduct.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_addproduct.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_adduser.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_adduser.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_reviseuser.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_reviseuser.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_tabusermanage.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_tabusermanage.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="addproduct.cpp">
+      <Filter>Source Files\productManage</Filter>
+    </ClCompile>
+    <ClCompile Include="tabproductmanage.cpp">
+      <Filter>Source Files\productManage</Filter>
+    </ClCompile>
+    <ClCompile Include="tabstartsell.cpp">
+      <Filter>Source Files\startSell</Filter>
+    </ClCompile>
+    <ClCompile Include="adduser.cpp">
+      <Filter>Source Files\userManage</Filter>
+    </ClCompile>
+    <ClCompile Include="reviseuser.cpp">
+      <Filter>Source Files\userManage</Filter>
+    </ClCompile>
+    <ClCompile Include="tabusermanage.cpp">
+      <Filter>Source Files\userManage</Filter>
+    </ClCompile>
+    <ClCompile Include="sqlOp.cpp">
+      <Filter>Source Files\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_reviseproduct.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_reviseproduct.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="reviseproduct.cpp">
+      <Filter>Source Files\productManage</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_deleteuser.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_deleteuser.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="deleteuser.cpp">
+      <Filter>Source Files\userManage</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_deleteproduct.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_deleteproduct.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="deleteproduct.cpp">
+      <Filter>Source Files\productManage</Filter>
+    </ClCompile>
+    <ClCompile Include="tabdataoutput.cpp">
+      <Filter>Source Files\dataOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_tipdialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_tipdialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="TableToExcel.cpp">
+      <Filter>Source Files\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_tabstatisticreport.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_tabstatisticreport.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="tabstatisticreport.cpp">
+      <Filter>Source Files\statisticReport</Filter>
+    </ClCompile>
+    <ClCompile Include="getUUID.cpp">
+      <Filter>Source Files\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Parameter.cpp">
+      <Filter>Source Files\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="tipdialog.cpp">
+      <Filter>Source Files\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_tabdataoutput.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_tabdataoutput.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="littlesun.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="littlesun.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="littlesun.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="homepage.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="homepage.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="adduser.ui">
+      <Filter>Form Files\userManage</Filter>
+    </CustomBuild>
+    <CustomBuild Include="reviseuser.ui">
+      <Filter>Form Files\userManage</Filter>
+    </CustomBuild>
+    <CustomBuild Include="tabusermanage.ui">
+      <Filter>Form Files\userManage</Filter>
+    </CustomBuild>
+    <CustomBuild Include="tabproductmanage.ui">
+      <Filter>Form Files\productManage</Filter>
+    </CustomBuild>
+    <CustomBuild Include="tabstartsell.ui">
+      <Filter>Form Files\startSell</Filter>
+    </CustomBuild>
+    <CustomBuild Include="addproduct.ui">
+      <Filter>Form Files\productManage</Filter>
+    </CustomBuild>
+    <CustomBuild Include="addproduct.h">
+      <Filter>Header Files\productManage</Filter>
+    </CustomBuild>
+    <CustomBuild Include="tabproductmanage.h">
+      <Filter>Header Files\productManage</Filter>
+    </CustomBuild>
+    <CustomBuild Include="adduser.h">
+      <Filter>Header Files\userManage</Filter>
+    </CustomBuild>
+    <CustomBuild Include="reviseuser.h">
+      <Filter>Header Files\userManage</Filter>
+    </CustomBuild>
+    <CustomBuild Include="tabusermanage.h">
+      <Filter>Header Files\userManage</Filter>
+    </CustomBuild>
+    <CustomBuild Include="tabstartsell.h">
+      <Filter>Header Files\startSell</Filter>
+    </CustomBuild>
+    <CustomBuild Include="reviseproduct.ui">
+      <Filter>Form Files\productManage</Filter>
+    </CustomBuild>
+    <CustomBuild Include="reviseproduct.h">
+      <Filter>Header Files\productManage</Filter>
+    </CustomBuild>
+    <CustomBuild Include="deleteuser.ui">
+      <Filter>Form Files\userManage</Filter>
+    </CustomBuild>
+    <CustomBuild Include="deleteuser.h">
+      <Filter>Header Files\userManage</Filter>
+    </CustomBuild>
+    <CustomBuild Include="deleteproduct.ui">
+      <Filter>Form Files\productManage</Filter>
+    </CustomBuild>
+    <CustomBuild Include="deleteproduct.h">
+      <Filter>Header Files\productManage</Filter>
+    </CustomBuild>
+    <CustomBuild Include="tabdataoutput.ui">
+      <Filter>Form Files\dataOutput</Filter>
+    </CustomBuild>
+    <CustomBuild Include="tabdataoutput.h">
+      <Filter>Header Files\dataOutput</Filter>
+    </CustomBuild>
+    <CustomBuild Include="tipdialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="tabstatisticreport.ui">
+      <Filter>Form Files\statisticReport</Filter>
+    </CustomBuild>
+    <CustomBuild Include="tabstatisticreport.h">
+      <Filter>Header Files\statisticReport</Filter>
+    </CustomBuild>
+    <CustomBuild Include="tipdialog.h">
+      <Filter>Header Files\tools</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_littlesun.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_homepage.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_tabstartsell.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_tabproductmanage.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_addproduct.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_adduser.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_reviseuser.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_tabusermanage.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sqlOp.h">
+      <Filter>Header Files\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_reviseproduct.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_deleteuser.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_deleteproduct.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_tabdataoutput.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_tipdialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_tabstatisticreport.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Parameter.h">
+      <Filter>Header Files\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="image\userinterface\background.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\userinterface\border.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\userinterface\btn_cls.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\userinterface\btn_clsed.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\userinterface\btn_finish.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\userinterface\btn_finished.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\userinterface\close.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\userinterface\data_export.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\userinterface\input_box_b.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\userinterface\input_box_c.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\userinterface\input_box_d.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\userinterface\list_a.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\userinterface\list_b.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\userinterface\narrow.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\userinterface\numerical_statement.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\userinterface\product_management.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\userinterface\start_quote.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\userinterface\user_management.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="LittleSun.rc" />
+  </ItemGroup>
+</Project>

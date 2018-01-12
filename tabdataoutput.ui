@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TabDataOutput</class>
+ <widget class="QWidget" name="TabDataOutput">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>699</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>TabDataOutput</string>
+  </property>
+  <widget class="QTableWidget" name="dataTabWid">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>176</y>
+     <width>964</width>
+     <height>332</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Microsoft YaHei UI&quot;;
+color:#212222;
+gridline-color:#212222;
+
+</string>
+   </property>
+   <row>
+    <property name="text">
+     <string/>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string/>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string/>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string/>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string/>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string/>
+    </property>
+   </row>
+   <column>
+    <property name="text">
+     <string>报价时间</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>产品名称</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>产品类别</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>长度</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>宽度</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>单价(元)</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>基础价格</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>平接</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>平接单价</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>平接价格</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>报价系数</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>终端报价</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>报价员</string>
+    </property>
+   </column>
+   <item row="0" column="0">
+    <property name="text">
+     <string/>
+    </property>
+   </item>
+   <item row="0" column="1">
+    <property name="text">
+     <string/>
+    </property>
+   </item>
+   <item row="0" column="2">
+    <property name="text">
+     <string/>
+    </property>
+   </item>
+   <item row="0" column="3">
+    <property name="text">
+     <string/>
+    </property>
+   </item>
+   <item row="0" column="4">
+    <property name="text">
+     <string/>
+    </property>
+   </item>
+   <item row="0" column="5">
+    <property name="text">
+     <string/>
+    </property>
+   </item>
+   <item row="0" column="6">
+    <property name="text">
+     <string/>
+    </property>
+   </item>
+   <item row="0" column="7">
+    <property name="text">
+     <string/>
+    </property>
+   </item>
+   <item row="0" column="8">
+    <property name="text">
+     <string/>
+    </property>
+   </item>
+   <item row="0" column="9">
+    <property name="text">
+     <string/>
+    </property>
+   </item>
+   <item row="0" column="10">
+    <property name="text">
+     <string/>
+    </property>
+   </item>
+   <item row="0" column="11">
+    <property name="text">
+     <string/>
+    </property>
+   </item>
+   <item row="0" column="12">
+    <property name="text">
+     <string/>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="datfirstpageButton">
+   <property name="geometry">
+    <rect>
+     <x>184</x>
+     <y>535</y>
+     <width>114</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	border-image: url(:/dataoutput/image/dataoutput/btn_firstpage_normal.png);
+}
+QPushButton::hover {
+	border-image: url(:/dataoutput/image/dataoutput/btn_firstpage_press.png);
+}
+QPushButton:disabled{
+border-image: url(:/dataoutput/image/dataoutput/btn_firstpage_down.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="datprepageButton">
+   <property name="geometry">
+    <rect>
+     <x>318</x>
+     <y>535</y>
+     <width>114</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	border-image: url(:/dataoutput/image/dataoutput/btn_prpage_normal.png);
+}
+QPushButton::hover {
+	border-image: url(:/dataoutput/image/dataoutput/btn_prpage_press.png);
+}
+QPushButton:disabled{
+border-image: url(:/dataoutput/image/dataoutput/btn_prpage_down.png);
+}
+	</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="datnextpageButton">
+   <property name="geometry">
+    <rect>
+     <x>452</x>
+     <y>535</y>
+     <width>114</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	border-image: url(:/dataoutput/image/dataoutput/btn_nextpage_normal.png);
+}
+QPushButton::hover {
+	border-image: url(:/dataoutput/image/dataoutput/btn_nextpage_press.png);
+}
+QPushButton:disabled{
+border-image: url(:/dataoutput/image/dataoutput/btn_nextpage_down.png);
+}
+	</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="datlastpageButton">
+   <property name="geometry">
+    <rect>
+     <x>586</x>
+     <y>535</y>
+     <width>114</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	border-image: url(:/dataoutput/image/dataoutput/btn_lastpage.normal.png);
+}
+QPushButton::hover {
+	border-image: url(:/dataoutput/image/dataoutput/btn_lastpage_press.png);
+}
+QPushButton:disabled{
+border-image: url(:/dataoutput/image/dataoutput/btn_lastpage_down.png);
+}
+	</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="datexportButton">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>535</y>
+     <width>114</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	border-image: url(:/dataoutput/image/dataoutput/btn_export_normal.png);
+}
+QPushButton::hover {
+	border-image: url(:/dataoutput/image/dataoutput/btn_export_press.png);
+}
+	</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label1">
+   <property name="geometry">
+    <rect>
+     <x>86</x>
+     <y>62</y>
+     <width>20</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
+   </property>
+   <property name="text">
+    <string>从</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label2">
+   <property name="geometry">
+    <rect>
+     <x>325</x>
+     <y>62</y>
+     <width>20</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
+   </property>
+   <property name="text">
+    <string>到</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="datSortComBox">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>110</y>
+     <width>196</width>
+     <height>43</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QComboBox{
+font: 12pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(66, 66, 66);
+	border-image: url(:/dataoutput/image/dataoutput/下拉框_normal.png);
+}
+
+QComboBox:pressed{
+border-image: url(:/dataoutput/image/dataoutput/下拉框_pressed.png);
+}
+
+QComboBox::drop-down {
+subcontrol-origin: padding;
+subcontrol-position: top right;
+width: 30px;
+border-left-width: 0px;
+border-left-color: gray;
+border-left-style: solid;
+border-top-right-radius: 3px;
+border-bottom-right-radius: 3px;
+}
+
+</string>
+   </property>
+   <property name="editable">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="datNameComBox">
+   <property name="geometry">
+    <rect>
+     <x>358</x>
+     <y>110</y>
+     <width>196</width>
+     <height>43</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QComboBox{
+font: 12pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(66, 66, 66);
+	border-image: url(:/dataoutput/image/dataoutput/下拉框_normal.png);
+}
+
+QComboBox:pressed{
+border-image: url(:/dataoutput/image/dataoutput/下拉框_pressed.png);
+}
+
+QComboBox::drop-down {
+subcontrol-origin: padding;
+subcontrol-position: top right;
+width: 30px;
+border-left-width: 0px;
+border-left-color: gray;
+border-left-style: solid;
+border-top-right-radius: 3px;
+border-bottom-right-radius: 3px;
+}
+
+</string>
+   </property>
+   <property name="editable">
+    <bool>false</bool>
+   </property>
+   <item>
+    <property name="text">
+     <string>所有产品</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="datcompanyComBox">
+   <property name="geometry">
+    <rect>
+     <x>596</x>
+     <y>50</y>
+     <width>196</width>
+     <height>43</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QComboBox{
+font: 12pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(66, 66, 66);
+	border-image: url(:/dataoutput/image/dataoutput/下拉框_normal.png);
+}
+
+QComboBox:pressed{
+border-image: url(:/dataoutput/image/dataoutput/下拉框_pressed.png);
+}
+
+QComboBox::drop-down {
+subcontrol-origin: padding;
+subcontrol-position: top right;
+width: 30px;
+border-left-width: 0px;
+border-left-color: gray;
+border-left-style: solid;
+border-top-right-radius: 3px;
+border-bottom-right-radius: 3px;
+}
+</string>
+   </property>
+   <property name="editable">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="datmanComBox">
+   <property name="geometry">
+    <rect>
+     <x>596</x>
+     <y>110</y>
+     <width>196</width>
+     <height>43</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QComboBox{
+font: 12pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(66, 66, 66);
+	border-image: url(:/dataoutput/image/dataoutput/下拉框_normal.png);
+}
+
+QComboBox:pressed{
+border-image: url(:/dataoutput/image/dataoutput/下拉框_pressed.png);
+}
+
+QComboBox::drop-down {
+subcontrol-origin: padding;
+subcontrol-position: top right;
+width: 30px;
+border-left-width: 0px;
+border-left-color: gray;
+border-left-style: solid;
+border-top-right-radius: 3px;
+border-bottom-right-radius: 3px;
+}
+</string>
+   </property>
+   <property name="editable">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="datinquireButton">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>110</y>
+     <width>114</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+border-image: url(:/dataoutput/image/dataoutput/btn_inquire_normal.png);}
+
+QPushButton::hover{
+border-image: url(:/dataoutput/image/dataoutput/btn_inquire_press.png);}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QDateEdit" name="datstartDateEdit">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>50</y>
+     <width>196</width>
+     <height>43</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+ font: 12pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(66, 66, 66);
+</string>
+   </property>
+  </widget>
+  <widget class="QDateEdit" name="datendDateEdit">
+   <property name="geometry">
+    <rect>
+     <x>358</x>
+     <y>50</y>
+     <width>196</width>
+     <height>43</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(66, 66, 66);</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>407</x>
+     <y>605</y>
+     <width>210</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>西红柿科技（武汉）有限公司</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <tabstops>
+  <tabstop>datstartDateEdit</tabstop>
+  <tabstop>datendDateEdit</tabstop>
+  <tabstop>datcompanyComBox</tabstop>
+  <tabstop>datSortComBox</tabstop>
+  <tabstop>datNameComBox</tabstop>
+  <tabstop>datmanComBox</tabstop>
+  <tabstop>datinquireButton</tabstop>
+  <tabstop>dataTabWid</tabstop>
+  <tabstop>datfirstpageButton</tabstop>
+  <tabstop>datprepageButton</tabstop>
+  <tabstop>datnextpageButton</tabstop>
+  <tabstop>datlastpageButton</tabstop>
+  <tabstop>datexportButton</tabstop>
+ </tabstops>
+ <resources>
+  <include location="littlesun.qrc"/>
+ </resources>
+ <connections/>
+</ui>

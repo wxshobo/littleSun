@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TabProductManage</class>
+ <widget class="QWidget" name="TabProductManage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>699</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>TabProductManage</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QPushButton" name="proAddBtn">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>515</y>
+     <width>114</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QPushButton
+{border-image: url(:/productManage/image/productManage/btn_add_normal.png);}
+QPushButton:hover
+{border-image: url(:/productManage/image/productManage/btn_add_press.png);}
+QPushButton:pressed
+{border-image: url(:/productManage/image/productManage/btn_add_normal.png);}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="proPreBtn">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>515</y>
+     <width>114</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QPushButton
+{border-image: url(:/productManage/image/productManage/btn_prpage_normal.png);}
+QPushButton:hover
+{border-image: url(:/productManage/image/productManage/btn_prpage_press.png);}
+QPushButton:pressed
+{border-image: url(:/productManage/image/productManage/btn_prpage_normal.png);}
+
+QPushButton:disabled{
+   border-image: url(:/productManage/image/productManage/btn_prpage_down.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="proNextBtn">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>515</y>
+     <width>114</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QPushButton
+{border-image: url(:/productManage/image/productManage/btn_nextpage_normal.png);}
+QPushButton:hover
+{border-image: url(:/productManage/image/productManage/btn_nextpage_press.png);}
+QPushButton:pressed
+{border-image: url(:/productManage/image/productManage/btn_nextpage_normal.png);}
+
+QPushButton:disabled{
+   border-image: url(:/productManage/image/productManage/btn_nextpage_down.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="proDelBtn">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>515</y>
+     <width>114</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{border-image: url(:/productManage/image/productManage/btn_delete_normal.png);}
+QPushButton:hover
+{border-image: url(:/productManage/image/productManage/btn_delete_press.png);}
+QPushButton:pressed
+{border-image: url(:/productManage/image/productManage/btn_delete_normal.png);}
+
+QPushButton:disabled{
+   border-image: url(:/productManage/image/productManage/btn_delete_down.png);
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="proFirstBtn">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>515</y>
+     <width>114</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{border-image: url(:/productManage/image/productManage/btn_firstpage_normal.png);}
+QPushButton:hover
+{border-image: url(:/productManage/image/productManage/btn_firstpage_press.png);}
+QPushButton:pressed
+{border-image: url(:/productManage/image/productManage/btn_firstpage_normal.png);}
+
+QPushButton:disabled{
+   border-image: url(:/productManage/image/productManage/btn_firstpage_down.png);
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="proLastBtn">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>515</y>
+     <width>114</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{border-image: url(:/productManage/image/productManage/btn_lastpage.normal.png);}
+QPushButton:hover
+{border-image: url(:/productManage/image/productManage/btn_lastpage_press.png);}
+QPushButton:pressed
+{border-image: url(:/productManage/image/productManage/btn_lastpage.normal.png);}
+
+QPushButton:disabled{
+   border-image: url(:/productManage/image/productManage/btn_lastpage_down.png);
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="proTableWidget">
+   <property name="geometry">
+    <rect>
+     <x>56</x>
+     <y>60</y>
+     <width>904</width>
+     <height>418</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Microsoft YaHei UI&quot;;
+color:#212222;
+gridline-color:#212222;
+
+</string>
+   </property>
+   <row>
+    <property name="text">
+     <string/>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string/>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string/>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string/>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string/>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string/>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string/>
+    </property>
+   </row>
+   <column>
+    <property name="text">
+     <string/>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>产品名称</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>产品类别</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>单价（元）</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="proUpdateBtn">
+   <property name="geometry">
+    <rect>
+     <x>840</x>
+     <y>515</y>
+     <width>114</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{border-image: url(:/productManage/image/productManage/btn_alter_normal.png);}
+QPushButton:hover
+{border-image: url(:/productManage/image/productManage/btn_alter_press.png);}
+QPushButton:pressed
+{border-image: url(:/productManage/image/productManage/btn_alter_normal.png);}
+
+QPushButton:disabled{
+   border-image: url(:/productManage/image/productManage/btn_alter_down.png);
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>407</x>
+     <y>605</y>
+     <width>210</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>西红柿科技（武汉）有限公司</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <tabstops>
+  <tabstop>proFirstBtn</tabstop>
+  <tabstop>proPreBtn</tabstop>
+  <tabstop>proNextBtn</tabstop>
+  <tabstop>proLastBtn</tabstop>
+  <tabstop>proAddBtn</tabstop>
+  <tabstop>proDelBtn</tabstop>
+  <tabstop>proUpdateBtn</tabstop>
+  <tabstop>proTableWidget</tabstop>
+ </tabstops>
+ <resources>
+  <include location="littlesun.qrc"/>
+ </resources>
+ <connections/>
+</ui>
